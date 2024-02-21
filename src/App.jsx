@@ -1,7 +1,7 @@
 import ContactList from "./components/contactlist"
 import {useState} from "react"
-import { dummyContacts } from "./components/contactlist"
-
+import './App.css'
+import SelectedContact from "./components/SelectedContact"
 
 function App() {
   const [selectedContactId, setSelectedContactId] = useState(null)
