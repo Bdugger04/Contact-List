@@ -23,9 +23,7 @@ fetchSingleContact()
 
  return (
   <div>{`${contact.name}`}</div>
-  // <div>{`${contact.username}`}</div>,
-  // <div>{`${contact.email}`}</div>,
-  // <div>{`${contact.phone}`}</div> 
+
   )
   
 }
